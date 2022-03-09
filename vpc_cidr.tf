@@ -1,4 +1,4 @@
-data "aws_vpc" "prod" {
+data "aws_vpc" "dev" {
   filter {
     name   = "tag:Name"
     values = ["dev"]
